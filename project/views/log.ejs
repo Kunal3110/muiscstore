@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Welcome</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="static/new.js"></script>
+<style>
+  body{ background: skyblue;}
+</style>
+<body>
+<div class="container">
+<div class = "row">
+
+<div class="col-md-12">
+<h2 style="margin-bottom: 30px;">My Shopping Cart:<%= data.email %></h2>
+</div>
+
+<div class="col-md-12">
+    <table class="table table-bordered text-center">
+     <thead>
+       <tr class="table">
+         <td>Image</td>
+         <td>Film</td>
+         <td>Price</td>
+       </tr>
+     </thead>
+     <tbody>
+        <tr class="table">
+          <td width="80"><img src="http://media1.santabanta.com/full1/Bollywood%20Movies/Don%202/don-2-30a.jpg" height="90"></td>
+          <td class="table"><h4>DON-2</h4></td>
+          <td class="table"><h4>$10</h4></td>
+        </tr>
+      </tbody>
+      <tbody>
+          <tr class="table">
+            <td><img src="http://www.bollywoodlife.com/wp-content/uploads/2017/02/Sachin-BAT-poster.jpg" height="80"></td>
+            <td class="table"><h4>200 Not Out</h4></td>
+            <td class="table"><h4>$20</h4></td>
+          </tr>
+        </tbody>
+        <tbody>
+            <tr class="table">
+              <td><img src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-r277nlv1ar8q7ml890fc13up32-20160929181247.Medi.jpeg" height="50"></td>
+              <td class="table"><h4>Dhoni A UNTOLD Story</h4></td>
+              <td class="table"><h4>$20</h4></td>
+            </tr>
+          </tbody>
+          <thead>
+              <tr class="table">
+                <td><img src="http://www.bollynook.com/uploaded_pictures/content/lyrics/520x333/kal-ho-naa-ho-sad-8305.jpg" height="60"></td>
+                <td class="table"><h4>Kal Ho na Ho</h4></td>
+                <td class="table"><h4>$10</h4></td>
+              </tr>
+            </tbody>
+      </table>
+</div>
+
+
+
+
+</div>
+<button type="button" class="btn btn-success btn-lg " href="" >CHECKOUT</button>
+
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
